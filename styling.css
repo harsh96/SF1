@@ -1,0 +1,100 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+a:link    {color:white; background-color:transparent;text-decoration: none;
+ }
+a:visited {color:white; background-color:transparent; text-decoration: none;
+}
+a:hover   {color:white; background-color: rgb(216,135,11);text-decoration: none;
+ }
+a:active  {color:white; background-color:transparent;text-decoration: none;
+ }
+
+h1{
+	font-style: bold;
+	font-size: 50px;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: rgb(216,135,11);
+	color: #fff;
+}
+h2{
+	font-size: 30px;
+	font-style: bold;
+	color : brown ;
+
+}
+header , section ,footer ,nav , article {
+	display:block;
+}
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	background:#FFFBCC;
+}
+#big_wrapper{
+	max-width: 1360px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex: 1;
+}
+
+#heading{
+	background:rgb(216,135,11);
+
+	border:1px solid black;
+	padding :20px;
+	text-align: center;
+}
+
+#content{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+#side_menu{
+	border:red;
+	background:#66CCCC;
+	color:white;
+	
+	width:150px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding:30px;
+}
+#side_menu li{
+	display block;
+	list-style: none;
+	padding:5px;
+	font: bold 30px comic;
+	width:150px;
+}
+#main_section{
+	background:#FFFBCC;
+	-webkit-box-flex:1;
+	margin-right: 0px;
+	margin-left:0px;
+	padding:10px;
+	font-size: 24px;
+}
+#the_footer{
+	text-align: center;
+	padding:20px;
+	border-top: 2px solid black;
+	font-size: 25px;
+	background-color:#222;
+    color:white;
+}
+article {
+	background:#FFFBCC;
+	font-family:sans-serif;
+	
+	padding: 20px;
+
+}
+article footer{
+	text-align:right;
+	font: bold 30px Tahoma;
+
+}

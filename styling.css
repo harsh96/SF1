@@ -6,7 +6,7 @@ a:link    {color:white; background-color:transparent;text-decoration: none;
  }
 a:visited {color:white; background-color:transparent; text-decoration: none;
 }
-a:hover   {color:white; background-color: rgb(216,135,11);text-decoration: none;
+#side_menu a:hover   {color:white; background-color: rgb(216,135,11);text-decoration: none;
  }
 a:active  {color:white; background-color:transparent;text-decoration: none;
  }
@@ -34,11 +34,12 @@ body{
 	background:#FFFBCC;
 }
 #big_wrapper{
-	max-width: 1360px;
+	width: 1200px;
 	margin: 20px 0px;
+
 	display: -webkit-box;
 	-webkit-box-orient:vertical;
-	-webkit-box-flex: 1;
+	-webkit-box-flex: 0;
 }
 
 #heading{
@@ -63,20 +64,24 @@ body{
 	margin-right: 0px;
 	padding:30px;
 }
-#side_menu li{
-	display block;
+#side_menu ul{
+	display: block;
 	list-style: none;
 	padding:5px;
 	font: bold 30px comic;
 	width:150px;
 }
+#side_menu li{
+	margin-bottom: 10px;
+}
 #main_section{
 	background:#FFFBCC;
-	-webkit-box-flex:1;
-	margin-right: 0px;
+	-webkit-box-flex:0;
+	margin-right: 180px;
 	margin-left:0px;
 	padding:10px;
 	font-size: 24px;
+	min-height: 460px;
 }
 #the_footer{
 	text-align: center;
@@ -97,4 +102,42 @@ article footer{
 	text-align:right;
 	font: bold 30px Tahoma;
 
+}
+p{
+	font-family: cursive;
+}
+#contact {
+  margin: 2px;
+  padding: 5px;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}
+
+#contact img {
+  display: inline;
+  margin: 3px;
+  padding: 20px;
+}
+#contact a:hover img{
+	border: 2px solid black;
+	padding: 5px;
+}
+#contact_description {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  width: 250px;
+  margin: 2px;
+}
+#my_acads ul{
+	display: block;
+	list-style-type: circle;
+	padding:5px;
+	font-size:  30px ;
+	font-family: cursive;
+}
+#my_acads li{
+	margin-bottom: 10px;
 }
